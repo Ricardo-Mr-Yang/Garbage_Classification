@@ -141,8 +141,8 @@ def output_show():
     plt.subplot(3,5,14)
     plt.xticks([])
     plt.yticks([])
-    plt.xlabel("集美大学诚毅学院",fontsize=20)  
-    plt.text(0.065,0.300,"总用时：%.2f秒\n\n杨宝玉    林森\n黄镇江    蔡绍良"%(end_time-start_time),fontsize=20)
+    #plt.xlabel("xxxxx",fontsize=20)  
+    plt.text(0.065,0.300,"总用时：%.2f秒"%(end_time-start_time),fontsize=20)
 
     plt.show()
 
